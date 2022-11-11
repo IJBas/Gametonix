@@ -1,0 +1,191 @@
+.p{
+    font-family: 'Montserrat', sans-serif;
+    Font-weight: 900;
+    font-size: 3.5rem;
+     line-height: 1.5;
+     color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+img{
+    width: 10%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    border-radius: 25%;
+    padding-bottom: 1rem;
+}
+p{
+    font-family: 'Monofett', cursive;
+    font-size: 2rem;
+    position: relative;
+    padding: 1%;
+}
+.home-content{
+    text-align: left;
+    color: black;
+}
+
+.menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+  }
+  .scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: orange;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: black;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  .scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .scroll-up-btn:hover{
+    filter: brightness(90%);
+  }
+  
+  
+  .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky{
+    padding: 15px 0;
+    background: orange;
+  }
+  .navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .navbar .logo a span{
+    color:orange;
+    transition: all 0.3s ease;
+  }
+  .navbar.sticky .logo a span{
+    color: white;
+  }
+  .navbar .menu li{
+    list-style: none;
+    display: inline-block;
+  }
+  .navbar .menu li a{
+    display: block;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+  }
+  .navbar .menu li a:hover{
+    color: orange;
+  }
+  .navbar.sticky .menu li a:hover{
+    color: black;
+  }
+  
+  #title{
+    background-color: #0e0428;
+    padding: 3% 15% 5%
+  }
+  .brand-title{
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .nav-list{
+    padding: 0 30 px;
+  }
+  .navbar{
+    padding: 0 0 4.5rem;
+  }
+  .title-quote{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+  }
+  .btn-download{
+    margin: 5% 3% 5 0;
+  }
+  .title-image{
+    width:45%;
+    height:30%;
+    margin-top: 3;
+    transform: rotate(30deg);
+    right: 1.5rem;
+    position: absolute;
+  
+  }
+  .btn-download{
+    margin-right: 8px;
+  }
+body{
+    text-align: center;
+    margin: 0;
+    background-color: #0e0428;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: whitesmoke;
+}
+table{
+    width: 100%;
+}
+tr{
+    width: 50%;;
+}
+#div0{
+    background-color: orange;
+    padding-bottom: 1rem;
+    color: #16003B;
+}
+
+
+
+footer{
+    background: #111;
+    padding: 70px 20px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: orange;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}

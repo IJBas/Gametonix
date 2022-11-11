@@ -1,0 +1,375 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+
+}
+.row-top{
+  margin-top: 10rem;
+}
+#p{
+  color: black;
+}
+.footer-paragraph{
+  color: black;
+}
+/*title Section*/
+.menu-btn{
+  color: orange;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+.scroll-up-btn{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: orange;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: black;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.scroll-up-btn:hover{
+  filter: brightness(90%);
+}
+
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: orange;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a{
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span{
+  color:orange;
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+  color: white;
+}
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+  color: orange;
+}
+.navbar.sticky .menu li a:hover{
+  color: black;
+}
+
+#title{
+  background-color: #0e0428;
+  padding: 3% 15% 5%;
+}
+.brand-title{
+  font-family:'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.nav-list{
+  padding: 0 30 px;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.title-quote{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.btn-download{
+  margin: 5% 3% 5 0;
+}
+.title-image{
+  width:45%;
+  height:30%;
+  margin-top: 3;
+  transform: rotate(30deg);
+  right: 1.5rem;
+  position: absolute;
+
+}
+.btn-download{
+  margin-right: 8px;
+}
+
+.first{
+  margin-top: 5rem;;
+}
+/*features*/
+#features{
+  padding: 7% 14%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+.fa-icon
+{
+  color: #0e0428;
+  margin-bottom: 10px;
+}
+.fa-icon:hover{
+  color: #909fc0;
+}
+.eyebrow{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.feature-col{
+  padding: 5%;
+}
+.section-cta{
+  margin-top: 1rem;
+}
+.p-about{
+  color: white;
+}
+
+#testimonials{
+  background-color: black;
+
+  text-align: center;
+  color: white;
+  font-family:'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+ }
+.carousel-image{
+  border-radius: 20%;
+  width: 10%;
+  margin: 20px;
+}
+.carousel-image2{
+  width: 50%;;
+  margin: 20px;
+}
+.carousel-text{
+  margin-top: 1rem;
+}
+#press{
+  background-color: black;
+  text-align: center;
+  position: relative;
+
+}
+.press-log{
+  width: 10%;
+  margin: 20px 20px 50px;
+  text-align: center;
+}
+/*pricing*/
+#pricing{
+  text-align: center;
+}
+.h2{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.price-text{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.card-body{
+  background-color: #C8C2BC;
+}
+.card-header1{
+  background-color: #A47E3B;
+}
+.card-header2{
+  background-color: #73777B;
+}
+.card-header3{
+  background-color: #FAC213;
+}
+/*cta*/
+
+#cta{
+  background-color: #15133C;
+  padding: 7% 14%;
+  text-align: center;
+}
+.cta{
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #FAC213;
+}
+#footer{
+  text-align: center;
+  padding: 7% 14%;
+}
+.icon-foot{
+  padding: 20px 10px;
+  width:50px;
+  height:50px;
+}
+@media (max-width:1024px){
+  .title-quote{
+    font-size: 3 rem;
+  }
+
+}
+.paragraph-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+}
+/*contact*/
+.text{
+  color: whitesmoke;
+}
+.icons{
+  color: white;
+}
+#sub-head{
+  color: white;
+}
+.contact{
+    width: 80%;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: #C28C2F;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button-area{
+  display: flex;
+  align-items: center;
+}
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: #C28C2F;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+  color: #C28C2F;
+  background: none;
+}
+
+
+
+
